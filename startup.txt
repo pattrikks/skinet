@@ -1,0 +1,13 @@
+dotnet:
+cd API
+dotnet watch run
+
+angular:
+cd client
+ng serve
+
+redis:
+docker-compose up --detach
+
+user: root
+pw: secret
